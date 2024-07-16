@@ -10,8 +10,8 @@ alias gh='git hist'
 alias gha='git hist-all'
 alias gho='git hist-origin'
 
-alias ll='ls -lGFha'
-alias ls='ls -GFh'
+alias ll='ls -lGFha --color=auto'
+alias ls='ls -GFh --color=auto'
 alias ds='du -h -d 1'
 
 alias rm="echo Use the full path i.e. '/bin/rm'"
