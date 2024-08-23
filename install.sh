@@ -26,4 +26,4 @@ run_step "Step 1: Updating package list" "sudo apt-get update"
 
 run_step "Step 2: Installing stow" "sudo apt-get install -y stow"
 
-run_step "Step 3: Running stow" "stow -t $HOME dotfiles"
+run_step "Step 3: Running stow" "stow --no-folding -t $HOME dotfiles"
